@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;300&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+main {
+  width: 100%;
+  position: relative;
+}
+
+header {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(img/bg-hero-desktop.svg);
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 5%;
+}
+.about .one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .one button {
+  cursor: pointer;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  border: none;
+  padding: 15px 70px;
+  box-shadow: 0px 1px 1px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+
+.about .two {
+  width: 100%;
+  height: 100%;
+  margin: 1.5% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about .two .content {
+  width: 40%;
+  height: auto;
+}
+
+.about .two .image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  width: 60%;
+}
+
+.about .two .image img {
+  width: 92%;
+}
+.about .two .info {
+  padding-bottom: 40px;
+}
+.about .two .content .info h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: hsl(192, 100%, 9%);
+  letter-spacing: 0.5px;
+  padding-bottom: 40px;
+}
+.about .two .content .info p {
+  font-weight: 300;
+  color: hsl(192, 100%, 9%);
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  font-size: 19px;
+}
+.about .two .content button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 15px 70px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px hsl(192, 100%, 9%);
+}
+.container {
+  margin: 120px;
+  margin-bottom: 300px;
+}
+
+.container .box {
+  height: 330px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px;
+  border-radius: 16px;
+  -webkit-box-shadow: 6px 6px 6px 4px whitesmoke;
+  -moz-box-shadow: 6px 6px 6px 4px whitesmoke;
+  box-shadow: 0px 0px 6px 4px whitesmoke;
+}
+
+.container .box img {
+  max-width: 100%;
+  height: 200px;
+}
+.container .box .inf h2 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+
+.container .box .inf p {
+  color: hsl(0, 1%, 64%);
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #00252e;
+}
+
+.alert {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px;
+  -webkit-box-shadow: 0px 0px 0px 4px whitesmoke;
+  -moz-box-shadow: 0px 0px 0px 4px whitesmoke;
+  box-shadow: 0px 0px 6px 4px whitesmoke;
+  border-radius: 16px;
+}
+.alert .in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alert .in h2 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+.alert .in button {
+  cursor: pointer;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  padding: 16px 50px;
+  border-radius: 50px;
+  margin-top: 30px;
+  font-size: 16px;
+  box-shadow: 2px 2px 10px hsl(192, 100%, 9%);
+}
+
+.contact-container {
+  position: relative;
+  height: 100%;
+  padding: 150px 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.location {
+  display: flex;
+  align-items: inherit;
+  margin-bottom: 30px;
+}
+
+.contant1 i {
+  font-size: 18px;
+  padding-right: 30px;
+  color: white;
+}
+
+.contant1 p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: rgb(198, 196, 196);
+}
+.phone {
+  display: flex;
+  align-items: inherit;
+  margin-bottom: 30px;
+}
+.mail {
+  display: flex;
+  align-items: inherit;
+  margin-bottom: 30px;
+}
+.contant2 p {
+  font-size: 12px;
+  color: rgb(198, 196, 196);
+  margin-bottom: 30px;
+}
+.contant3 p {
+  font-size: 12px;
+  color: rgb(198, 196, 196);
+  margin-bottom: 30px;
+}
+.ikon i {
+  color: rgb(198, 196, 196);
+  border: 1px solid rgb(198, 196, 196);
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.c {
+  position: absolute;
+  color: rgb(198, 196, 196);
+  right: 100px;
+  bottom: 130px;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .about .one {
+    width: 100%;
+  }
+}
